@@ -1,5 +1,5 @@
-import express from "express";
-import content from "./content.js";
+const express = require('express');
+const content = require('./content.cjs');
 
 const router = express.Router();
 
@@ -13,4 +13,4 @@ router.get('/', (req,res) => {
   });
 });
 
-export default router;
+module.exports = router;

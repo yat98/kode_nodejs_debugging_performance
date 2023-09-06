@@ -1,9 +1,7 @@
-import express from "express";
-import 'dotenv/config';
-import router from "./routes.js";
-import cuteStack from 'cute-stack';
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
+require('dotenv/config');
+const express = require('express');
+const router = require('./routes.cjs');
+const cuteStack = require('cute-stack')();
 
 cuteStack();
 if(process.env.NODE_ENV !== 'production'){
@@ -13,7 +11,6 @@ if(process.env.NODE_ENV !== 'production'){
 
 const port = process.env.PORT;
 const app = express();
-
 
 app.use(router);
 

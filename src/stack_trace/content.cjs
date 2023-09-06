@@ -5,4 +5,4 @@ const content = (opts, c = 20) => {
   }
 }
 
-export default content;
+module.exports = content;
