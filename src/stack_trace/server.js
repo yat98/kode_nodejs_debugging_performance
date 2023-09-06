@@ -1,7 +1,10 @@
 import express from "express";
 import 'dotenv/config';
 import router from "./routes.js";
+import cuteStack from 'cute-stack';
 
+
+cuteStack('table');
 const port = process.env.PORT;
 const app = express();
 
