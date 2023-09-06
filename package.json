@@ -13,6 +13,7 @@
     "cute-stack": "^1.4.3",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "jade": "^1.11.0",
     "longjohn": "^0.2.12",
     "stackup": "^1.0.2",
     "stylus": "^0.60.0"
