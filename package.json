@@ -23,6 +23,7 @@
     "stylus": "^0.60.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.17"
+    "@types/express": "^4.17.17",
+    "climem": "^1.0.3"
   }
 }
